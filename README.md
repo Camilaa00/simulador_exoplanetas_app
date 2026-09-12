@@ -1,1 +1,1 @@
-# simulador_exoplanetas_app
+# Simulador de Exoplanetas
