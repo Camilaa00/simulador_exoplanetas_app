@@ -168,7 +168,7 @@ casos = [
     {
         "icon": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/pia04304-mars.jpg?w=1536&h=1456&fit=crop&crop=faces%2Cfocalpoint",
         "title": "Terrestre frío",
-        "subtitle": "< 1.25 R⊕ · ≤ -70 °C",
+        "subtitle": "< 1.25 R⊕ | ≤ -70 °C",
         "badge_text": "Posible",
         "badge_type": "green",
         "description": "Un planeta pequeño y rocoso en los bordes fríos de su sistema. <b>El agua existe solo como hielo</b>, la atmósfera es tenue o inexistente, y el suelo es sólido pero árido.",
@@ -178,7 +178,7 @@ casos = [
     {
         "icon": "https://science.nasa.gov/wp-content/uploads/2023/05/earth-1-jpg.webp?resize=768,432",
         "title": "Terrestre templado",
-        "subtitle": "< 1.25 R⊕ · -70 a 40 °C",
+        "subtitle": "< 1.25 R⊕ | -70 a 40 °C",
         "badge_text": "Posible — el más buscado",
         "badge_type": "green",
         "description": "El tipo más codiciado: superficie sólida + temperatura donde el <b>agua puede ser líquida</b>. Condiciones ideales para la vida tal como la conocemos.",
@@ -186,9 +186,9 @@ casos = [
         "example": "Ej. real: Tierra, TRAPPIST-1e, LHS 1140b"
     },
     {
-        "icon": "🌋",
+        "icon": "https://content.nationalgeographic.com.es/medio/2018/02/28/55-cancri-e__1280x720.JPG",
         "title": "Terrestre ultra caliente",
-        "subtitle": "< 1.25 R⊕ · > 800 °C",
+        "subtitle": "< 1.25 R⊕ | > 800 °C",
         "badge_text": "Extremo pero posible",
         "badge_type": "orange",
         "description": "Un mundo donde la superficie está <b>completamente fundida</b>. No hay corteza sólida, sino un océano global de roca derretida llamado océano de magma.",
@@ -196,9 +196,9 @@ casos = [
         "example": "Ej. real: 55 Cancri e (~2400 °C)"
     },
     {
-        "icon": "💧",
+        "icon": "https://cdn.shopify.com/s/files/1/0742/7719/1954/files/Kepler_442b_planet_1024x1024.webp?v=1709039125",
         "title": "Supertierra / mini-neptuno templado",
-        "subtitle": "1.25 - 4 R⊕ · -20 a 50 °C",
+        "subtitle": "1.25 - 4 R⊕ | -20 a 50 °C",
         "badge_text": "Posible",
         "badge_type": "green",
         "description": "Podría ser un <b>mundo oceánico</b>: un planeta con tanta agua que no tiene fondo sólido accesible. O un mundo rocoso con atmósfera gruesa de nitrógeno.",
@@ -206,9 +206,9 @@ casos = [
         "example": "Ej. real: LHS 1140b, Kepler-442b"
     },
     {
-        "icon": "🥶",
+        "icon": "https://spaceplace.nasa.gov/all-about-neptune/sp/neptune1.sp.jpg",
         "title": "Gigante gaseoso frío",
-        "subtitle": "4 - 15 R⊕ · ≤ -70 °C",
+        "subtitle": "4 - 15 R⊕ | ≤ -70 °C",
         "badge_text": "Posible — pero en órbita lejana",
         "badge_type": "orange",
         "description": "Un gigante gaseoso <b>solo puede ser frío si está muy lejos de su estrella</b>. La combinación tiene sentido: Urano y Neptuno son exactamente esto.",
@@ -216,9 +216,9 @@ casos = [
         "example": "Ej. real: Urano (-197 °C), Neptuno (-201 °C)"
     },
     {
-        "icon": "🔥",
+        "icon": "https://media.sketchfab.com/models/359f9db593ae4c138702b4a58d96a963/thumbnails/aaaea7e009074f96a5a20e36c5d4bc6a/1024x576.jpeg",
         "title": "Júpiter caliente",
-        "subtitle": "4 - 15 R⊕ · 200 - 1200 °C",
+        "subtitle": "4 - 15 R⊕ | 200 - 1200 °C",
         "badge_text": "Posible — muy común",
         "badge_type": "green",
         "description": "El tipo de exoplaneta <b>más fácil de detectar</b>. Son gigantes gaseosos que orbitan muy cerca de su estrella, completando una órbita en pocos días.",
@@ -226,9 +226,9 @@ casos = [
         "example": "Ej. real: 51 Pegasi b, primer exoplaneta descubierto"
     },
     {
-        "icon": "💥",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b2/WASP-76_b_%282020%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
         "title": "Júpiter ultra caliente",
-        "subtitle": "4 - 15 R⊕ · > 2000 °C",
+        "subtitle": "4 - 15 R⊕ | > 2000 °C",
         "badge_text": "Extremo pero posible",
         "badge_type": "orange",
         "description": "Más caliente que muchas estrellas pequeñas. <b>Los metales se evaporan</b> en la atmósfera: llueve hierro líquido en el lado nocturno. Un mundo completamente caótico.",
@@ -236,9 +236,9 @@ casos = [
         "example": "Ej. real: WASP-76b (llueve hierro)"
     },
     {
-        "icon": "⚡",
+        "icon": "https://www.earth.com/assets/_next/image/?url=%2Fimg%2F16x9%2F1920%2Fuploads%2F2024%2F07%2F26090751%2Fsuper-jupiter-discovery_direct-image_Eps-Ind-Ab_Webb_1m.jpg&w=1920&q=75",
         "title": "Súper-Júpiter frío",
-        "subtitle": "> 15 R⊕ · ≤ -70 °C",
+        "subtitle": "> 15 R⊕ | ≤ -70 °C",
         "badge_text": "Posible — muy escaso",
         "badge_type": "orange",
         "description": "Un monstruo gaseoso en los confines de su sistema. <b>Recién fotografiado por el James Webb</b> en 2024 con el planeta Epsilon Indi Ab.",
@@ -246,9 +246,9 @@ casos = [
         "example": "Ej. real: Epsilon Indi Ab (~0 °C, 12 años luz)"
     },
     {
-        "icon": "🚫",
+        "icon": "https://www.pngkey.com/png/detail/62-627900_white-question-mark-on-a-black-circular-background.png",
         "title": "Planeta micro-rocoso ultra caliente",
-        "subtitle": "< 0.5 R⊕ · > 2000 °C",
+        "subtitle": "< 0.5 R⊕ | > 2000 °C",
         "badge_text": "Físicamente inestable",
         "badge_type": "red",
         "description": "Demasiado pequeño para sobrevivir. A esa temperatura y tamaño, <b>la atmósfera se evapora completamente</b> y la roca misma se vaporiza y escapa al espacio.",
@@ -256,9 +256,9 @@ casos = [
         "example": "No existen ejemplos confirmados en este rango exacto."
     },
     {
-        "icon": "🪨",
+        "icon": "https://cdn.mos.cms.futurecdn.net/qnft8kRfeGWWLgaygo4fb9-1920-80.jpg",
         "title": "El \"asteroide grande\"",
-        "subtitle": "< 0.5 R⊕ · cualquier temperatura",
+        "subtitle": "< 0.5 R⊕ | cualquier temperatura",
         "badge_text": "No es un planeta",
         "badge_type": "red",
         "description": "Por debajo de ~0.5 R⊕ la gravedad no es suficiente para que el objeto <b>adopte forma esférica</b>. Es un asteroide, una luna pequeña o un cuerpo irregular, no un planeta.",
@@ -266,7 +266,7 @@ casos = [
         "example": "Ej. de no-planeta: Ceres (0.073 R⊕)"
     },
     {
-        "icon": "🌱",
+        "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Proxima_b_habit.jpg/250px-Proxima_b_habit.jpg?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         "title": "Zona habitable perfecta",
         "subtitle": "0.8 - 2.5 R⊕  |  -20 a 50 °C",
         "badge_text": "El candidato ideal",
