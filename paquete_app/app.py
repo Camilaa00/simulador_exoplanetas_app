@@ -78,7 +78,7 @@ with col_simulador:
             value=-200,
             step=5
         )
-        st.write("DEBUG:", temp, temperatura(temp))
+        
     # Aquí llamamos a las funciones que tenemos en fisica.py para los cálculos ajenos a la interfaz.
     r_nombre, r_color = tamaño(radio)
     temp_nombre = temperatura(temp)
